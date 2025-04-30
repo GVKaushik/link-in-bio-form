@@ -4,4 +4,9 @@ class ItemsController < ApplicationController
 
     render({ :template => "item_templates/list" })
   end
+
+  def new_input
+    render({:template=>"item_templates/entry"})
+  end
+
 end
